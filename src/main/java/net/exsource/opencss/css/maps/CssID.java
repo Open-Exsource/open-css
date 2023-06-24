@@ -1,4 +1,4 @@
-package net.exsource.css.maps;
+package net.exsource.opencss.css.maps;
 
 import org.jetbrains.annotations.NotNull;
 

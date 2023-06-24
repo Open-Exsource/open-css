@@ -1,4 +1,4 @@
-package net.exsource.exception;
+package net.exsource.opencss.exception;
 
 import java.io.Serial;
 

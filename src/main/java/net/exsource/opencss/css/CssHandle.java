@@ -1,4 +1,4 @@
-package net.exsource.css;
+package net.exsource.opencss.css;
 
 import net.exsource.openlogger.Logger;
 import org.jetbrains.annotations.NotNull;

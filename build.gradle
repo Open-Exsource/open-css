@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'net.exsource'
-version = '1.0.1-SNAPSHOT'
+version = '1.0.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -21,7 +21,9 @@ test {
 
 dependencies {
 
-    implementation 'net.exsource:open-logger:1.1.1-SNAPSHOT'
+    implementation 'net.exsource:open-logger:1.0.0-SNAPSHOT'
+    implementation 'net.exsource:open-utils:1.0.0-20230624.122358-1'
+
     implementation 'org.jetbrains:annotations:24.0.1'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.1'

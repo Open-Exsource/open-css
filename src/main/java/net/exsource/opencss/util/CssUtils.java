@@ -1,7 +1,7 @@
-package net.exsource.util;
+package net.exsource.opencss.util;
 
-import net.exsource.css.CssValue;
-import net.exsource.exception.CssParseException;
+import net.exsource.opencss.css.CssValue;
+import net.exsource.opencss.exception.CssParseException;
 import net.exsource.openlogger.Logger;
 import net.exsource.openlogger.util.ConsoleColor;
 

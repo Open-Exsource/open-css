@@ -1,4 +1,4 @@
-package net.exsource;
+package net.exsource.opencss;
 
 import java.io.File;
 import java.net.URI;

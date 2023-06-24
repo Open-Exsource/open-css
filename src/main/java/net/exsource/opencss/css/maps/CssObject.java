@@ -1,10 +1,10 @@
-package net.exsource.css.maps;
+package net.exsource.opencss.css.maps;
 
-import net.exsource.css.CssHandle;
-import net.exsource.css.CssValue;
-import net.exsource.exception.CssParseException;
+import net.exsource.opencss.css.CssHandle;
+import net.exsource.opencss.css.CssValue;
+import net.exsource.opencss.exception.CssParseException;
+import net.exsource.opencss.util.CssUtils;
 import net.exsource.openlogger.util.ConsoleColor;
-import net.exsource.util.CssUtils;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Map;

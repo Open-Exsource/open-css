@@ -1,8 +1,8 @@
-package net.exsource;
+package net.exsource.opencss;
 
-import net.exsource.css.help.CssType;
-import net.exsource.css.maps.*;
-import net.exsource.exception.CssObjectNotFound;
+import net.exsource.opencss.css.help.CssType;
+import net.exsource.opencss.exception.CssObjectNotFound;
+import net.exsource.opencss.css.maps.*;
 import net.exsource.openlogger.Logger;
 import net.exsource.openlogger.level.LogLevel;
 import net.exsource.openlogger.util.ConsoleColor;
