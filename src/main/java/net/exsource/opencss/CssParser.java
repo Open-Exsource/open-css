@@ -6,7 +6,7 @@ import net.exsource.opencss.css.maps.*;
 import net.exsource.openlogger.Logger;
 import net.exsource.openlogger.level.LogLevel;
 import net.exsource.openlogger.util.ConsoleColor;
-import net.exsource.openlogger.util.DevTools;
+import net.exsource.openutils.tools.Commons;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
@@ -42,7 +42,7 @@ public class CssParser implements Parser {
         }
 
         this.toConvert = file;
-        List<String> rawText = DevTools.readTxT(file.getAbsolutePath());
+        List<String> rawText = Commons.readDocument(file.getAbsolutePath());
         if(rawText.isEmpty()) {
             logger.warn("Css file [ " + file.getPath() + " ] is empty and not usefully!");
             return;
